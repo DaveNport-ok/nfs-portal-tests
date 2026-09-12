@@ -20,7 +20,6 @@
 ```bash
 mvn test
 
-<img width="1918" height="931" alt="image" src="https://github.com/user-attachments/assets/fb34f05c-9585-4783-bccc-fef75dbed149" />
 
 
 
