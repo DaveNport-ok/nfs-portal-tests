@@ -4,7 +4,7 @@
 
 ## Стек
 * **Язык:** Java
-* **Инструменты:** Selenide, JUnit 5, Maven
+* **Инструменты:** Selenide, JUnit 5, Maven, Allure Report
 * **Браузер:** Google Chrome
 
 ## Что проверяют тесты
@@ -14,12 +14,18 @@
 * Наличие атрибутов локализации (`data-i18n`).
 * Отсутствие критических JS-ошибок в консоли браузера.
 
-## Запуск
+## Запуск тестов
 
-В терминале проекта:
+Выполнение тестов в терминале:
 ```bash
 mvn test
+```
 
+Генерация и открытие отчёта Allure:
+```bash
+mvn allure:serve
+```
 
+## Отчёт Allure Report
 
-
+![Allure Report](https://github.com/user-attachments/assets/618ee88d-bc80-4e61-9bdd-9fa6d8b46926)
