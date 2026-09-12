@@ -1,5 +1,7 @@
 # NFS Portal Tests
 
+[![UI Tests](https://github.com/DaveNport-ok/nfs-portal-tests/actions/workflows/tests.yml/badge.svg)](https://github.com/DaveNport-ok/nfs-portal-tests/actions/workflows/tests.yml)
+
 Набор автотестов для сайта [NFS Portal](https://davenport-ok.github.io/nfs-portal).
 
 ## Стек
